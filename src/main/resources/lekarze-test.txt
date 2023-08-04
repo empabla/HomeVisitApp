@@ -1,0 +1,6 @@
+Id_lekarza	Nazwisko	Imie	Specjalnosc	Data_urodzenia	NIP	PESEL
+23	Kadaj	Monika	laryngolog	1965-03-16	879-122-69-94	65031687654
+25	Kordylewski	Michal	nefrolog	1970-01-13	567-098-55-66	70011345567
+26	Lewandowska	Sylwia	urolog	1955-04-22	444-567-87-65	55042256786
+28	Maslowski	Michal	okulista	1956-10-19	345-667-56-65	56101988766
+29	Olejnik	Jacek	pediatra	1960-07-23	887-667-56-66	60072388766

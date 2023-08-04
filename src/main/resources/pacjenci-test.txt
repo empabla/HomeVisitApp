@@ -1,0 +1,6 @@
+Id_pacjenta	Nazwisko	Imie	PESEL	Data_urodzenia
+100	Kowal	Waldemar	01211309876	2001-1-13
+110	Cyrankowska	Ilona	06281498876	2006-8-14
+111	Imbierowicz	Hanna	64040456673	1964-4-4
+121	Karlowski	Henryk	55090933455	1955-9-9
+122	Nowakowska	Joanna	73050512356	1973-5-5
