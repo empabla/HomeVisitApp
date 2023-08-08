@@ -1,0 +1,2 @@
+Id_lekarza	Nazwisko	Imie	Specjalnosc	Data_urodzenia	NIP	PESEL
+1	Nowak	Adam	kardiolog	1980-01-01	123-456-11-11	80010112345

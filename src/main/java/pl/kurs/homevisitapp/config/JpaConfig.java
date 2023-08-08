@@ -6,6 +6,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
 import org.springframework.core.env.Environment;
+import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.orm.jpa.JpaVendorAdapter;
 import org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean;
 import org.springframework.orm.jpa.vendor.Database;
@@ -48,6 +49,11 @@ public class JpaConfig {
         bds.setMinIdle(5);
         bds.setMaxIdle(20);
         return bds;
+    }
+
+    @Bean
+    public JdbcTemplate jdbcTemplate(BasicDataSource dataSource) {
+        return new JdbcTemplate(dataSource);
     }
 
 }

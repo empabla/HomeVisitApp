@@ -5,6 +5,7 @@ import org.springframework.context.annotation.ComponentScan;
 import pl.kurs.homevisitapp.dao.IDoctorDao;
 import pl.kurs.homevisitapp.dao.IHomeVisitDao;
 import pl.kurs.homevisitapp.dao.IPatientDao;
+import pl.kurs.homevisitapp.models.Patient;
 import pl.kurs.homevisitapp.services.IFileDataImporter;
 
 import java.time.LocalDate;
@@ -26,6 +27,8 @@ public class HomeVisitApp {
         System.out.println("patientDao.findById(100L) = " + patientDao.findById(100L));
         System.out.println("doctorDao.findById(25L) = " + doctorDao.findById(25L));
         System.out.println("homeVisitDao.findById(2L) = " + homeVisitDao.findById(2L));
+
+        Patient byIdWithVisits = patientDao.findByIdWithVisits(100L);
 
         System.out.println("patientDao.findByIdWithVisits(100L) = " + patientDao.findByIdWithVisits(100L));
         System.out.println("doctorDao.findFirstAvailableVisitAfterDateById(23L, LocalDate.of(2006,9,23)) = " +

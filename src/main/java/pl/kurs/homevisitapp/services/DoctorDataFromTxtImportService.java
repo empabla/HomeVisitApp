@@ -39,7 +39,7 @@ public class DoctorDataFromTxtImportService implements IFileDataImporter {
         importDataFromFile(new File(filePath));
     }
 
-    public void importDataFromFile(File file) {
+    private void importDataFromFile(File file) {
         DateTimeFormatter dateFormatter = DateTimeFormatter.ofPattern("yyyy-M-d");
         try {
             Dictionary dictionary = getOrCreateDictionary("specializations");

@@ -1,0 +1,2 @@
+Id_pacjenta	Nazwisko	Imie	PESEL	Data_urodzenia
+1	Madej	Karol	85101012345	1985-10-10

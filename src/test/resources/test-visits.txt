@@ -1,0 +1,2 @@
+Id_lekarza	Id_pacjenta	Data_wizyty
+1	1	2023-08-01
